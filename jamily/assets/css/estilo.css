@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    background-color: #FFE600;
+    height: 55px;
+
+}
+.img-logo{
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 70px;
+    justify-content: center;
+   
+
+    h4{
+        font-weight: 400;
+        font-size: 32px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        span{
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+
+    
+    .container{
+        border: 1px solid #D3D3D3;
+        width: 500px;
+        height: 350px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: column;
+      
+    
+      .formulario{
+        margin-top: 50px;
+      }
+
+       label{
+        font-size: 18px;
+        opacity: 70%;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+       }
+       #email-telefone{
+        border: 1px solid grey;
+        width: 430px;
+        height: 50px;
+        margin-left: 30px;
+        opacity: 60%;
+        border-radius: 10px;
+       }
+       .bnt{
+        color: white;
+        font-size: 15px;
+        background-color: #3483FA ;
+        border: 1px solid #3483FA ;
+        width: 430px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-top: 15px;
+       }
+       p{
+        opacity: 70%;
+        margin-top: 30px;
+        margin-left: 40px ;
+       }
+       
+       .outro{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid grey ;
+        width: 430px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-top: 10px;
+        opacity: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       #google{
+        color: black;
+        font-size: 15px;
+        margin: 100px;
+       
+       }
+       #logo-google{
+        width: 20px;
+        
+        
+       }
+    }
+}
